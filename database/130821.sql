@@ -1,0 +1,4 @@
+ALTER TABLE `users`  ADD `last_name` VARCHAR(50) NULL  AFTER `first_name`,  ADD `gender` VARCHAR(50) NULL  AFTER `last_name`,  ADD `dob` DATE NULL  AFTER `gender`,  ADD `address` TEXT NULL  AFTER `dob`,  ADD `address_1` TEXT NULL  AFTER `address`,  ADD `country` INT NULL  AFTER `address_1`,  ADD `state` INT NULL  AFTER `country`,  ADD `city` INT NULL  AFTER `state`,  ADD `zipcode` VARCHAR(10) NULL  AFTER `city`;
+ALTER TABLE `users` CHANGE `state` `state` VARCHAR(255) NULL DEFAULT NULL, CHANGE `city` `city` VARCHAR(255) NULL DEFAULT NULL;
+ALTER TABLE `users` ADD `g2f_temp` VARCHAR(255) NULL AFTER `referred_by`;
+ALTER TABLE `users` ADD `google2fa_secret` VARCHAR(255) NULL AFTER `g2f_temp`;

@@ -1,0 +1,222 @@
+/** Moosa Style **/
+@media(min-width:1200px) {
+    .adv-theme.dark-theme .index-header {
+        height: 40px;
+        padding: 0.5rem;
+        background-color: white;
+    }
+
+    .pos_abs {
+        padding: 0.7rem 43px;
+        height: 50px;
+    }
+
+    .adv-trade-wrapper {
+        width: 100%;
+        display: block;
+    }
+
+    .adv-trade-wrapper {
+        /* height: calc(100vh - 90px); */
+        height: auto;
+    }
+
+    .history-adv .portlet-header {
+        height: 44px;
+    }
+
+    .history-adv .portlet-content table thead,
+    .history-adv .portlet-content table thead tr {
+        height: 25px;
+    }
+
+    .recent_trade_new_blk .portlet-header {
+        height: 35px;
+    }
+
+    .recent_trade_new_blk .portlet-content ul.nav-tabs {
+        height: 35px;
+    }
+
+    .recent_trade_new_blk .portlet-content table thead {
+        height: 25px;
+        padding: 4px 0;
+    }
+
+    .adv-buysell-order-cnt .portlet-header {
+        height: 35px;
+    }
+
+    .adv-buysell-order-cnt .portlet-content table thead {
+        height: 25px;
+        padding: 4px 0;
+    }
+
+    .tb-seperator {
+        height: 30px;
+    }
+
+    .tb-84 {
+        overflow-y: hidden ! important;
+    }
+
+    .limit_new_class .portlet-header {
+        height: 50px;
+    }
+
+    .limit_new_class .portlet-content {
+        margin-bottom: 8px;
+        overflow-y: auto;
+    }
+
+    .dark-theme.adv-theme .exchange_dropdown .nav-link.index-header-link.dropdown-toggle {
+        margin-top: 8px;
+        color: #88afc2;
+    }
+
+    .center-nav-links li a {
+        color: #88afc2;
+    }
+}
+
+/** E O Moosa Style **/
+
+body.adv-theme {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    background: #000;
+}
+
+.adv-theme-header .exc-dd-heading {
+    color: #f48720 ! important;
+}
+
+.adv-buycnt,
+.adv-sellcnt {
+    width: 50% ! important;
+    display: inline-block;
+    float: left;
+    padding: 0 15px;
+}
+
+.adv-buycnt {
+    border-right: 1px solid #505a64;
+}
+
+.adv-theme .portlet-content ul.nav-tabs li.nav-item a.nav-link,
+.adv-theme .portlet-header ul.nav-tabs li.nav-item a.nav-link {
+    font-size: 12px;
+}
+
+.adv-theme .portlet table thead tr th,
+.adv-theme .portlet table tbody tr td {
+    font-size: 12px;
+}
+
+.adv-theme .info-row .colon-pad {
+    padding-right: 25px;
+}
+
+.adv-theme .dashboard-header {
+    margin-bottom: 10px;
+}
+
+.dashboard-header .mobile-menu-cnt,
+.dashboard-header .mobile-menu {
+    display: block;
+}
+
+.mobile-menu-cnt span:hover {
+    cursor: pointer;
+}
+
+.adv-theme .dashboard-tabs {
+    display: contents;
+}
+
+.adv-buy-heading {
+    color: #72bf44;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.adv-sell-heading {
+    color: #ef413d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.adv-buy-value {
+    float: right;
+    color: #b4bec8;
+}
+
+.adv-buy-value img {
+    margin-left: 5px;
+}
+
+.adv-info-row {
+    width: 100%;
+    margin: 10px 0;
+}
+
+@media(max-width:767px) {
+    .adv-theme .dashboard-header .mobile-menu-cnt {
+        display: none;
+    }
+
+    .dark-theme .navbar-toggler-icon {
+        color: #ffffff;
+    }
+
+    .adv-buycnt {
+        width: 100% ! important;
+        border-right: 0px;
+        border-bottom: 1px solid #505a64;
+    }
+
+    .adv-sellcnt {
+        width: 100% ! important;
+    }
+
+    .adv-theme .xs-cat-cnt .table-hover tr {
+        display: inline-flex;
+    }
+}
+
+@media(max-width:1199px) {
+    .adv-trade-status-cnt {
+        display: block;
+    }
+
+    .adv-theme .adv-theme-header .exc-data-cnt,
+    .adv-theme .adv-theme-header .coinDrop {
+        display: none;
+    }
+}
+
+@media(min-width:1200px) {
+    .adv-trade-status-cnt {
+        display: none;
+    }
+
+    .adv-theme .portlet-btn-cnt>a {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .adv-theme .portlet-btn-cnt>a {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+}

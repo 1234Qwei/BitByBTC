@@ -1,0 +1,21 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+storage/
+
+# Laravel 5 & Lumen specific
+public
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+.htaccess
+*.log
+*.log
+storage/logs/laravel.log
